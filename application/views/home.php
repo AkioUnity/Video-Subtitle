@@ -1466,7 +1466,7 @@
             current.disableWaveformSeekEvent = true;
             wavesurfer.seekTo(document.getElementById("videoPlayer").currentTime / wavesurfer.backend.getDuration());
             current.disableWaveformSeekEvent = false;
-            wavesurfer.play();
+            // wavesurfer.play();
             clearInterval(current.timerID);
             current.timerID = setInterval(function () {
                 updateSubtitleOverlay();

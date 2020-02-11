@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6452dab2-3e58-46c7-83aa-f7d82f028c35" name="Default" comment="" />
+    <list default="true" id="6452dab2-3e58-46c7-83aa-f7d82f028c35" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -64,23 +68,46 @@
       <file leaf-file-name="file_helper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/helpers/file_helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="1430">
               <caret line="65" column="33" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="1468" column="30" lean-forward="true" selection-start-line="1468" selection-start-column="30" selection-end-line="1468" selection-end-column="30" />
+            <state relative-caret-position="302">
+              <caret line="2026" column="21" selection-start-line="2026" selection-start-column="13" selection-end-line="2026" selection-end-column="26" />
               <folding>
+                <element signature="e#111165#111171#0#HTML" expanded="true" />
+                <element signature="e#111171#111177#0#HTML" expanded="true" />
+                <element signature="e#111177#111183#0#HTML" expanded="true" />
+                <element signature="e#114290#114296#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#124181#124187#0#HTML" expanded="true" />
+                <element signature="e#124458#124464#0#HTML" expanded="true" />
+                <element signature="e#125525#125531#0#HTML" expanded="true" />
+                <element signature="e#125531#125537#0#HTML" expanded="true" />
+                <element signature="e#125537#125543#0#HTML" expanded="true" />
+                <element signature="e#132979#132985#0#HTML" expanded="true" />
+                <element signature="e#133180#133186#0#HTML" expanded="true" />
+                <element signature="e#137621#137627#0#HTML" expanded="true" />
+                <element signature="e#137627#137633#0#HTML" expanded="true" />
+                <element signature="e#137633#137639#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subtitle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -88,8 +115,8 @@
       <file leaf-file-name="wavesurfer.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/wavesurfer.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="176">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -100,8 +127,8 @@
       <file leaf-file-name="wavesurfer.regions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/wavesurfer.regions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="1628">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -118,8 +145,8 @@
       <file leaf-file-name="wavesurfer.timeline.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/wavesurfer.timeline.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="192" column="16" lean-forward="true" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+            <state relative-caret-position="4224">
+              <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -128,7 +155,6 @@
         <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/util.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -139,17 +165,8 @@
       <file leaf-file-name="wavesurfer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/wavesurfer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1804">
+            <state relative-caret-position="2948">
               <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spaces.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/third_party/spaces/spaces.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="436" column="37" selection-start-line="436" selection-start-column="37" selection-end-line="436" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -177,7 +194,7 @@
       <find>image_url(</find>
       <find>onclick=&quot;selectFile('video');</find>
       <find>subtitle_url(</find>
-      <find>echo subtitle_url</find>
+      <find />
       <find>keypress-2.1.4.min.j</find>
       <find>com$replaceVersionStrin</find>
       <find>d=&quot;videoPlayer&quot;</find>
@@ -187,22 +204,25 @@
       <find>home</find>
       <find>setupVideoPlayer</find>
       <find>wavesurfer.min</find>
-      <find>aveSurfer.util.extend(WaveSurfer.Timeline, W</find>
+      <find />
       <find>WaveSurfer.util.extend(Wav</find>
       <find>WaveSurfer.util.extend(WaveSu</find>
       <find>WaveSurfer.util.extend(WaveS</find>
-      <find>WaveSurfer.util.extend(WaveSurfer.Timeline, WaveSur</find>
-      <find>tyle: WaveSurfer.Drawer.sty</find>
+      <find />
+      <find />
       <find>wavesurfer_src</find>
-      <find>aveSurfer.util.extend(WaveSurfer.Timeline, Wave</find>
+      <find />
     </findStrings>
     <replaceStrings>
-      <replace>&lt;script src=&quot;&lt;?php subtitle_url('</replace>
-      <replace>') ?&gt;&quot;&gt;&lt;/script&gt;</replace>
-      <replace>&lt;img src=&quot;&lt;?php subtitle_url('</replace>
-      <replace>src=&quot;&lt;?php subtitle_url('</replace>
-      <replace>&lt;?php echo subtitle_url(</replace>
+      <replace />
+      <replace />
+      <replace />
+      <replace />
+      <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -213,13 +233,13 @@
         <option value="$PROJECT_DIR$/application/config/ci_bootstrap.php" />
         <option value="$PROJECT_DIR$/application/helpers/MY_url_helper.php" />
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/inc/subtitle.css" />
-        <option value="$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css" />
         <option value="$PROJECT_DIR$/application/libraries/Space.php" />
         <option value="$PROJECT_DIR$/application/modules/admin/config/ci_bootstrap.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/controllers/Home.php" />
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/inc/wavesurfer.min.js" />
         <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css" />
       </list>
     </option>
   </component>
@@ -317,204 +337,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
+              <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
+              <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-sdk-php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-sdk-php" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-sdk-php" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-              <item name="aws-sdk-php" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-              <item name="Parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
+              <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
+              <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fiveLoadSub" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
+              <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="fiveLoadSub" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fiveLoadSub" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fiveLoadSub" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ci_videotitle" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="SimpleXML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="standard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="ci_videotitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-              <item name="4a342d12-fbc2-44b7-a7bc-f22c86293ded" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,11 +426,12 @@
       <workItem from="1566096998302" duration="794000" />
       <workItem from="1570468533071" duration="2566000" />
       <workItem from="1581356079829" duration="29205000" />
+      <workItem from="1581442267828" duration="1464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39141000" />
+    <option name="totallyTimeSpent" value="40605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -583,27 +440,27 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.122609675" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.12710911" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4296963" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info anchor="right" id="Remote Host" weight="0.20676692" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1895811" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.20676692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19226637" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.24704619" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3295838" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3295838" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.122609675" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,13 +527,7 @@
         <state relative-caret-position="-3300" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/vendor/guzzlehttp/guzzle/src/Event/Emitter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/vendor/guzzlehttp/guzzle/src/Event/Emitter.php" />
     <entry file="file://$PROJECT_DIR$/application/vendor/guzzlehttp/guzzle/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -734,13 +585,7 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/jszip.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Errors.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -776,26 +621,7 @@
     <entry file="file://$PROJECT_DIR$/application/config/migration.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="106" column="1" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/index.html" />
     <entry file="file://$PROJECT_DIR$/application/libraries/Space.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -805,14 +631,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/third_party/spaces/spaces.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
+        <state relative-caret-position="9592">
           <caret line="436" column="37" selection-start-line="436" selection-start-column="37" selection-end-line="436" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/helpers/file_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="1430">
           <caret line="65" column="33" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="33" />
         </state>
       </provider>
@@ -879,13 +705,13 @@
     <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/wavesurfer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
+        <state relative-caret-position="2948">
           <caret line="134" column="4" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
         </state>
       </provider>
@@ -903,7 +729,6 @@
     <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -919,22 +744,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/wavesurfer.timeline.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="192" column="16" lean-forward="true" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
+        <state relative-caret-position="4224">
+          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/src/wavesurfer.regions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="1628">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/wavesurfer.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="176">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -943,14 +768,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="1468" column="30" lean-forward="true" selection-start-line="1468" selection-start-column="30" selection-end-line="1468" selection-end-column="30" />
+        <state relative-caret-position="302">
+          <caret line="2026" column="21" selection-start-line="2026" selection-start-column="13" selection-end-line="2026" selection-end-column="26" />
           <folding>
+            <element signature="e#111165#111171#0#HTML" expanded="true" />
+            <element signature="e#111171#111177#0#HTML" expanded="true" />
+            <element signature="e#111177#111183#0#HTML" expanded="true" />
+            <element signature="e#114290#114296#0#HTML" expanded="true" />
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#124181#124187#0#HTML" expanded="true" />
+            <element signature="e#124458#124464#0#HTML" expanded="true" />
+            <element signature="e#125525#125531#0#HTML" expanded="true" />
+            <element signature="e#125531#125537#0#HTML" expanded="true" />
+            <element signature="e#125537#125543#0#HTML" expanded="true" />
+            <element signature="e#132979#132985#0#HTML" expanded="true" />
+            <element signature="e#133180#133186#0#HTML" expanded="true" />
+            <element signature="e#137621#137627#0#HTML" expanded="true" />
+            <element signature="e#137627#137633#0#HTML" expanded="true" />
+            <element signature="e#137633#137639#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
         </state>
       </provider>
     </entry>
