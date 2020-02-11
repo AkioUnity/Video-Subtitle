@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/application/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/application/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/application/vendor/league/csv" />
+      <path value="$PROJECT_DIR$/application/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/application/vendor/composer" />
+      <path value="$PROJECT_DIR$/application/vendor/mailgun/mailgun-php" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/application/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/application/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/application/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/application/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/application/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/multipart-stream-builder" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/client-common" />
+      <path value="$PROJECT_DIR$/application/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/application/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/application/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/application/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/application/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.3.0" />
+</project>

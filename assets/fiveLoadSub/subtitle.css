@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    background: #565656;
+    overflow: hidden;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#mainContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#headerFrame {
+    width: 100%;
+    background: #333;
+    height: 90px;
+    color: #FFF;
+    text-align: center;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#ribbonToggleDiv {
+    display: block;
+    line-height: 120px;
+    text-align: right;
+    vertical-align: bottom;
+    float: right;
+}
+
+#videoFrame {
+    background: #000;
+    width: 50%;
+    border: 1px solid #666;
+    float: left;
+    position: relative;
+}
+
+#verticalDragDiv {
+    display: block;
+    width: 100%;
+    float: left;
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: white;
+}
+
+#verticalDragLine {
+    width: 100%;
+    height: 1px;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: white;
+}
+
+#horizontalDragDiv {
+    width: 1px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: white;
+}
+
+#horizontalDragLine {
+    width: 1px;
+    height: 50px;
+    opacity: 0;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    color: white;
+    background: white;
+}
+
+#subtitleFrame {
+    border: 1px solid #666;
+    float: left;
+    overflow: hidden;
+}
+
+#subtitleToolbar {
+    float: left;
+    width: 100%;
+    background: #CDCDCD;
+    min-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#subtitleTextArea {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0px;
+    resize: none;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    background: #565656;
+    word-wrap: off;
+    color: white;
+}
+
+#subtitleTextArea::-webkit-input-placeholder {
+    font-size: 36px;
+}
+
+#subtitleTextArea::-moz-placeholder {
+    font-size: 36px;
+}
+
+#waveformFrame {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #666;
+    height: 100%;
+    background: #144F3D;
+    color: #FFF;
+}
+
+.imgButton {
+    float: left;
+    text-align: center;
+    min-width: 130px;
+    padding: 0;
+    border: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.imgButton img {
+    text-align: center;
+}
+
+.imgButton br {
+}
+
+.imgButton:hover {
+    opacity: 0.7;
+}
+
+.imgButton:active {
+    opacity: 1;
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -moz-filter: brightness(50%);
+    filter: url(#brightness);
+}
+
+.selected_li {
+    background: #F99;
+}
+
+.subtitle_li {
+    list-style: none;
+    text-align: center;
+    color: #FFF;
+}
+
+#subtitleLineCount {
+    float: left;
+    width: 50px;
+    background: #000;
+    color: #FFF;
+}
+
+.subtitleElements {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.5;
+}
+
+#subtitleFormContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+    white-space: nowrap;
+}
+
+#subtitleOverlay {
+    float: left;
+    color: #FFF;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 50px;
+    left: 5%;
+    min-height: 20px;
+    text-align: center;
+    width: 90%;
+    font-size: 1.8vw;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/*Pin Tabs*/
+/* Tabbed example */
+div.pinTabs {
+    min-height: 7em;
+    /* No height: can grow if :target doesn't work */
+    position: relative;
+    /* Establish a containing block */
+    line-height: 1;
+    /* Easier to calculate with */
+    z-index: 0
+}
+
+/* So that we can put other things behind */
+
+div.pinTabs > div {
+    display: inline
+}
+
+/* We want the buttons all on one line */
+
+div.pinTabs > div > a {
+    color: black;
+    /* Looks more like a button than a link */
+    background: #CCC;
+    /* Active tabs are light gray */
+    padding: 0.2em;
+    /* Some breathing space */
+    border: 0.1em outset #BBB;
+    /* Make it look like a button */
+    border-bottom: 0.1em solid #CCC
+}
+
+/* Visually connect tab and tab body */
+
+div.pinTabs > div:not(:target) > a {
+    border-bottom: none;
+    /* Make the bottom border disappear */
+    background: #EEE;
+}
+
+/* Inactive tabs are dark gray */
+
+div.pinTabs > div:target > a,
+    /* Apply to the targeted item or... */
+
+:target #default2 > a {
+    /* ... to the default item */
+    border-bottom: 0.1em solid #FFF;
+    /* Visually connect tab and tab body */
+    background: #FFF;
+}
+
+/* Active tab is light gray */
+
+div.pinTabs > div > div {
+    background: #FFF;
+    border-top: 0.1em solid #BBB;
+    /* Light gray */
+    z-index: -2;
+    /* Behind, because the borders overlap */
+    left: 0;
+    top: 1.3em;
+    /* The top needs some calculation... */
+    right: 0;
+    /* Scroll bar if needed */
+    padding: 0.3em;
+}
+
+div.pinTabs > div:not(:target) > div {
+    /* Protect CSS1 & CSS2 browsers */
+    position: absolute;
+    visibility: hidden;
+}
+
+/* All these DIVs overlap */
+
+div.pinTabs > div:target > div,
+:target .default2 > div {
+    position: absolute;
+    /* All these DIVs overlap */
+    z-index: -1;
+}
+
+/* Raise it above the others */
+
+div.pinTabs:target {
+    outline: none
+}
+
+/* Save Dialog Style*/
+.promptDialog {
+    display: inline-block;
+    background-color: #FFF;
+    box-shadow: 4px 4px 12px -2px rgba(20%, 20%, 20%, 0.5);
+    border: #999 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0px;
+    padding-bottom: 10px;
+    min-width: 360px;
+    min-height: 150px;
+}
+
+#convertDialog {
+    min-width: 800px;
+    min-height: 600px;
+}
+
+#convertDialogContainer {
+    z-index: 100;
+}
+
+#saveDialogContainer {
+    z-index: 90;
+}
+
+.dialogContainer {
+    display: none;
+    line-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.saveDialogChoiceBox {
+    display: inline-block;
+    border: #CCC 1px solid;
+    height: 100px;
+    width: 100px;
+    font-size: 45px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 90px;
+    padding: 0;
+    margin: 5px;
+    vertical-align: central;
+}
+
+.saveDialogChoiceBox:hover {
+    background-color: #EEE;
+}
+
+.saveDialogChoiceBox:active {
+    background-color: #CCC;
+}
+
+.selectedSaveDialogChoiceBox {
+    background-color: #CCC;
+}
