@@ -6,13 +6,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Home extends MY_Controller {
 
+    public $default_space="video-caption";
+
 	public function index()
 	{
         $this->load->library('space');
 	    $space=$this->space->space;
 //	    $spaces = $space->ListSpaces();
 //        print_r($spaces);
-        $space->SetSpace('video-caption');
+        $space->SetSpace($this->default_space);
         $files = $space->ListObjects();
 //        print_r($files);
         $video_file=$files[0]['Key'];
@@ -28,4 +30,8 @@ class Home extends MY_Controller {
         $this->load->view('home', $this->mViewData);
 //		$this->render('home', 'full_width');
 	}
+
+	public function save(){
+
+    }
 }
