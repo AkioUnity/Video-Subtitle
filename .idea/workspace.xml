@@ -1,618 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6452dab2-3e58-46c7-83aa-f7d82f028c35" name="Default" comment="remove wave part">
-      <change afterPath="$PROJECT_DIR$/assets/fiveLoadSub/amg/lang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fiveLoadSub/amg/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fiveLoadSub/amg/obj_define.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fiveLoadSub/amg/safari.js" afterDir="false" />
+    <list default="true" id="6452dab2-3e58-46c7-83aa-f7d82f028c35" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/modules/api/controllers/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/api/controllers/Space.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/modules/api/controllers/Space.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/modules/api/controllers/Space.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/arabic/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/armenian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/azerbaijani/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bengali/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/bulgarian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/catalan/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/czech/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/dutch/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/english/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/filipino/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/french/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/german/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/greek/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/gujarati/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hindi/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/hungarian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/indonesian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/italian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/japanese/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/khmer/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/korean/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/latvian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/lithuanian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/norwegian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/persian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/polish/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese-brazilian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/portuguese/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/romanian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/russian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/serbian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/simplified-chinese/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovak/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/slovenian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/spanish/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/swedish/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/tamil/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/thai/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/traditional-chinese/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/turkish/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/ukrainian/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/urdu/upload_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/calendar_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/date_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/db_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/email_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/form_validation_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/ftp_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/imglib_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/migration_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/number_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/pagination_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/profiler_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/unit_test_lang.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/language/vietnamese/upload_lang.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -664,20 +58,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="366">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_helper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/helpers/file_helper.php">
+      <file leaf-file-name="ci_bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/admin/config/ci_bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="84" column="23" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="23" />
+            <state relative-caret-position="638">
+              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ci_bootstrap.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/ci_bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1515">
+              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -685,17 +111,8 @@
       <file leaf-file-name="Cli.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/Cli.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="standard_5.php" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1046" column="9" selection-start-line="1046" selection-start-column="9" selection-end-line="1046" selection-end-column="9" />
+            <state relative-caret-position="132">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -703,310 +120,17 @@
       <file leaf-file-name="Space.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Space.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="308">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dummy.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Dummy.php">
+      <file leaf-file-name="MY_Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="110" column="23" lean-forward="true" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="872" column="56" lean-forward="true" selection-start-line="872" selection-start-column="56" selection-end-line="872" selection-end-column="56" />
-              <folding>
-                <element signature="e#440#445#0#PHP" />
-                <element signature="e#526#531#0#PHP" />
-                <element signature="e#606#611#0#PHP" />
-                <element signature="e#695#700#0#PHP" />
-                <element signature="e#791#796#0#PHP" />
-                <element signature="e#887#892#0#PHP" />
-                <element signature="e#992#997#0#PHP" />
-                <element signature="e#1090#1095#0#PHP" />
-                <element signature="e#1172#1177#0#PHP" />
-                <element signature="e#1265#1270#0#PHP" />
-                <element signature="e#1367#1372#0#PHP" />
-                <element signature="e#1439#1444#0#PHP" />
-                <element signature="e#1509#1514#0#PHP" />
-                <element signature="e#1583#1588#0#PHP" />
-                <element signature="e#82091#83502#0#HTML" />
-                <element signature="e#82143#82189#0#HTML" />
-                <element signature="e#82750#82812#0#HTML" />
-                <element signature="e#82888#82951#0#HTML" />
-                <element signature="e#83027#83090#0#HTML" />
-                <element signature="e#83158#83490#0#HTML" />
-                <element signature="e#83283#83476#0#HTML" />
-                <element signature="e#83531#85939#0#HTML" />
-                <element signature="e#84953#85056#0#HTML" />
-                <element signature="e#85062#85165#0#HTML" />
-                <element signature="e#85715#85929#0#HTML" />
-                <element signature="e#85990#86112#0#HTML" />
-                <element signature="e#86142#88542#0#HTML" />
-                <element signature="e#87672#87775#0#HTML" />
-                <element signature="e#87781#87884#0#HTML" />
-                <element signature="e#88317#88531#0#HTML" />
-                <element signature="e#88583#89530#0#HTML" />
-                <element signature="e#89113#89436#0#HTML" />
-                <element signature="e#89156#89292#0#HTML" />
-                <element signature="e#89298#89422#0#HTML" />
-                <element signature="e#89572#90037#0#HTML" />
-                <element signature="e#89894#90003#0#HTML" />
-                <element signature="e#90068#90227#0#HTML" />
-                <element signature="e#90262#91169#0#HTML" />
-                <element signature="e#90292#90560#0#HTML" />
-                <element signature="e#90647#91157#0#HTML" />
-                <element signature="e#90747#90882#0#HTML" />
-                <element signature="e#90935#91114#0#HTML" />
-                <element signature="e#91207#91912#0#HTML" />
-                <element signature="e#91331#91375#0#HTML" />
-                <element signature="e#91468#91513#0#HTML" />
-                <element signature="e#91608#91774#0#HTML" />
-                <element signature="e#91789#91841#0#HTML" />
-                <element signature="e#91943#92371#0#HTML" />
-                <element signature="e#92299#92355#0#HTML" />
-                <element signature="e#92403#92740#0#HTML" />
-                <element signature="e#92541#92571#0#HTML" />
-                <element signature="e#92775#93381#0#HTML" />
-                <element signature="e#92789#93334#0#HTML" />
-                <element signature="e#12434#12684#0#HTML" />
-                <element signature="e#92891#93044#0#HTML" />
-                <element signature="e#12701#12933#0#HTML" />
-                <element signature="e#93164#93293#0#HTML" />
-                <element signature="e#93431#93539#0#HTML" />
-                <element signature="e#93582#94947#0#HTML" />
-                <element signature="e#93900#94158#0#HTML" />
-                <element signature="e#94073#94144#0#HTML" />
-                <element signature="e#94206#94833#0#HTML" />
-                <element signature="e#94360#94580#0#HTML" />
-                <element signature="e#94393#94464#0#HTML" />
-                <element signature="e#94647#94819#0#HTML" />
-                <element signature="e#94839#94937#0#HTML" />
-                <element signature="e#94987#95493#0#HTML" />
-                <element signature="e#95065#95458#0#HTML" />
-                <element signature="e#95163#95229#0#HTML" />
-                <element signature="e#95284#95352#0#HTML" />
-                <element signature="e#95523#95753#0#HTML" />
-                <element signature="e#95572#95631#0#HTML" />
-                <element signature="e#95783#96078#0#HTML" />
-                <element signature="e#95898#95957#0#HTML" />
-                <element signature="e#96117#96208#0#HTML" />
-                <element signature="e#96245#97505#0#HTML" />
-                <element signature="e#96608#97018#0#HTML" />
-                <element signature="e#96760#96880#0#HTML" />
-                <element signature="e#96934#97004#0#HTML" />
-                <element signature="e#97059#97471#0#HTML" />
-                <element signature="e#97212#97332#0#HTML" />
-                <element signature="e#97386#97457#0#HTML" />
-                <element signature="e#97545#98114#0#HTML" />
-                <element signature="e#97578#98038#0#HTML" />
-                <element signature="e#98152#98789#0#HTML" />
-                <element signature="e#98185#98713#0#HTML" />
-                <element signature="e#99144#99311#0#HTML" />
-                <element signature="e#99350#99515#0#HTML" />
-                <element signature="e#99552#105317#0#HTML" />
-                <element signature="e#99635#102256#0#HTML" />
-                <element signature="e#99756#99864#0#HTML" />
-                <element signature="e#99989#101081#0#HTML" />
-                <element signature="e#100243#101063#0#HTML" />
-                <element signature="e#101168#101462#0#HTML" />
-                <element signature="e#101249#101343#0#HTML" />
-                <element signature="e#101349#101444#0#HTML" />
-                <element signature="e#101549#101648#0#HTML" />
-                <element signature="e#101735#101835#0#HTML" />
-                <element signature="e#101922#102022#0#HTML" />
-                <element signature="e#102137#102242#0#HTML" />
-                <element signature="e#102299#103139#0#HTML" />
-                <element signature="e#102426#103125#0#HTML" />
-                <element signature="e#102463#102583#0#HTML" />
-                <element signature="e#102619#102745#0#HTML" />
-                <element signature="e#102782#102902#0#HTML" />
-                <element signature="e#102939#103004#0#HTML" />
-                <element signature="e#103041#103107#0#HTML" />
-                <element signature="e#103152#105307#0#HTML" />
-                <element signature="e#105351#105925#0#HTML" />
-                <element signature="e#105968#106903#0#HTML" />
-                <element signature="e#106206#106595#0#HTML" />
-                <element signature="e#106327#106581#0#HTML" />
-                <element signature="e#106672#106720#0#HTML" />
-                <element signature="e#106761#106810#0#HTML" />
-                <element signature="e#106816#106866#0#HTML" />
-                <element signature="e#106938#108210#0#HTML" />
-                <element signature="e#107004#108200#0#HTML" />
-                <element signature="e#107273#107417#0#HTML" />
-                <element signature="e#107491#107673#0#HTML" />
-                <element signature="e#107745#108012#0#HTML" />
-                <element signature="e#107809#107902#0#HTML" />
-                <element signature="e#107908#107994#0#HTML" />
-                <element signature="e#108251#108582#0#HTML" />
-                <element signature="e#108437#108485#0#HTML" />
-                <element signature="e#108491#108572#0#HTML" />
-                <element signature="e#108623#108807#0#HTML" />
-                <element signature="e#108843#109103#0#HTML" />
-                <element signature="e#108998#109092#0#HTML" />
-                <element signature="e#109144#110197#0#HTML" />
-                <element signature="e#109158#110186#0#HTML" />
-                <element signature="e#28803#29236#0#HTML" />
-                <element signature="e#109375#109596#0#HTML" />
-                <element signature="e#29253#29760#0#HTML" />
-                <element signature="e#109758#110071#0#HTML" />
-                <element signature="e#110231#110290#0#HTML" />
-                <element signature="e#110330#110765#0#HTML" />
-                <element signature="e#110378#110704#0#HTML" />
-                <element signature="e#110483#110536#0#HTML" />
-                <element signature="e#110569#110620#0#HTML" />
-                <element signature="e#110710#110755#0#HTML" />
-                <element signature="e#110817#110883#0#HTML" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#img#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#111321#111326#0#PHP" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#img#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#111621#111626#0#PHP" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#img#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#112025#112030#0#PHP" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#img#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#112420#112425#0#PHP" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#112758#112763#0#PHP" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#112929#112934#0#PHP" />
-                <element signature="n#video#0;n#div#1;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#hr#0;n#div#2;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#input#0;n#div#0;n#div#3;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#3;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#textarea#0;n#div#1;n#div#3;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#114914#114919#0#PHP" />
-                <element signature="n#div#4;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#hr#0;n#div#4;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#5;n#div#0;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#!!top" />
-                <element signature="e#115700#120546#0#HTML" />
-                <element signature="e#115851#115942#0#HTML" />
-                <element signature="e#116389#120535#0#HTML" />
-                <element signature="e#36177#37322#0#HTML" />
-                <element signature="e#116589#117035#0#HTML" />
-                <element signature="e#117133#117217#0#HTML" />
-                <element signature="e#117312#117398#0#HTML" />
-                <element signature="e#37339#38494#0#HTML" />
-                <element signature="e#117755#118208#0#HTML" />
-                <element signature="e#118306#118391#0#HTML" />
-                <element signature="e#118486#118574#0#HTML" />
-                <element signature="e#38511#39663#0#HTML" />
-                <element signature="e#118927#119377#0#HTML" />
-                <element signature="e#119475#119560#0#HTML" />
-                <element signature="e#119655#119743#0#HTML" />
-                <element signature="e#39680#40275#0#HTML" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#4;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#4;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#5;n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#input#0;n#div#2;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#input#1;n#div#2;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#input#2;n#div#2;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#input#3;n#div#2;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#input#4;n#div#2;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#span#0;n#div#4;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#span#1;n#div#4;n#div#0;n#div#1;n#body#0;n#!!top" />
-                <element signature="n#style#0;n#span#1;n#div#4;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#1;n#div#4;n#div#0;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#script#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="e#126017#126397#0#HTML" />
-                <element signature="e#126436#126790#0#HTML" />
-                <element signature="e#126831#131390#0#HTML" />
-                <element signature="e#127069#128027#0#HTML" />
-                <element signature="e#127194#127252#0#HTML" />
-                <element signature="e#127327#127385#0#HTML" />
-                <element signature="e#127402#128013#0#HTML" />
-                <element signature="e#47197#47409#0#HTML" />
-                <element signature="e#47430#47642#0#HTML" />
-                <element signature="e#47663#47749#0#HTML" />
-                <element signature="e#128084#130520#0#HTML" />
-                <element signature="e#128261#128849#0#HTML" />
-                <element signature="e#128938#129529#0#HTML" />
-                <element signature="e#129613#129812#0#HTML" />
-                <element signature="e#129895#129977#0#HTML" />
-                <element signature="e#130064#130450#0#HTML" />
-                <element signature="e#130247#130393#0#HTML" />
-                <element signature="e#130291#130371#0#HTML" />
-                <element signature="e#130580#131380#0#HTML" />
-                <element signature="e#130674#131077#0#HTML" />
-                <element signature="e#131200#131332#0#HTML" />
-                <element signature="e#131425#131817#0#HTML" />
-                <element signature="e#131856#131943#0#HTML" />
-                <element signature="n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#input#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#input#1;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#input#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#input#1;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#input#2;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#input#3;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#input#4;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#a#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#select#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#tr#0;n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#td#0;n#tr#0;n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#td#2;n#tr#0;n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#tr#1;n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#td#0;n#tr#1;n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#textarea#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#td#2;n#tr#1;n#table#0;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#span#0;n#div#2;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#span#1;n#div#2;n#div#0;n#div#2;n#body#0;n#!!top" />
-                <element signature="n#a#0;n#span#1;n#div#2;n#div#0;n#div#2;n#body#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="obj_define.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/amg/obj_define.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1136">
-              <caret line="974" lean-forward="true" selection-start-line="974" selection-end-line="974" />
+            <state relative-caret-position="-1276">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -1022,23 +146,20 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>keypress-2.1.4.min.j</find>
-      <find>com$replaceVersionStrin</find>
-      <find>d=&quot;videoPlayer&quot;</find>
       <find>subtitleTextArea</find>
       <find>=&quot;subtitleTextArea&quot;</find>
       <find>login</find>
       <find>home</find>
       <find>setupVideoPlayer</find>
       <find>wavesurfer.min</find>
-      <find>aveSurfer.util.extend(WaveSurfer.Timeline, W</find>
+      <find />
       <find>WaveSurfer.util.extend(Wav</find>
       <find>WaveSurfer.util.extend(WaveSu</find>
       <find>WaveSurfer.util.extend(WaveS</find>
-      <find>WaveSurfer.util.extend(WaveSurfer.Timeline, WaveSur</find>
-      <find>tyle: WaveSurfer.Drawer.sty</find>
+      <find />
+      <find />
       <find>wavesurfer_src</find>
-      <find>aveSurfer.util.extend(WaveSurfer.Timeline, Wave</find>
+      <find />
       <find>waveformFrame</find>
       <find>wavesurfer.</find>
       <find>/inc/</find>
@@ -1046,19 +167,22 @@
       <find>save</find>
       <find>saveDialogSaveButton</find>
       <find>saveDialogContainer</find>
-      <find>$this-&gt;client-&gt;putObject(</find>
-      <find>$this-&gt;client-&gt;putObject</find>
-      <find>putObject</find>
+      <find />
+      <find />
+      <find />
       <find>file_put_contents</find>
       <find>file_get_contents(</find>
       <find>write_file</find>
+      <find>jquery</find>
+      <find>ajax</find>
+      <find>uri_proto</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;script src=&quot;&lt;?php subtitle_url('</replace>
-      <replace>') ?&gt;&quot;&gt;&lt;/script&gt;</replace>
-      <replace>&lt;img src=&quot;&lt;?php subtitle_url('</replace>
-      <replace>src=&quot;&lt;?php subtitle_url('</replace>
-      <replace>&lt;?php echo subtitle_url(</replace>
+      <replace />
+      <replace />
+      <replace />
+      <replace />
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -1074,7 +198,6 @@
         <option value="$PROJECT_DIR$/application/helpers/MY_url_helper.php" />
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/inc/subtitle.css" />
         <option value="$PROJECT_DIR$/application/libraries/Space.php" />
-        <option value="$PROJECT_DIR$/application/modules/admin/config/ci_bootstrap.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/inc/wavesurfer.min.js" />
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/subtitle.css" />
@@ -1082,10 +205,13 @@
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/amg/main.js" />
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/amg/lang.js" />
         <option value="$PROJECT_DIR$/assets/fiveLoadSub/amg/obj_define.js" />
-        <option value="$PROJECT_DIR$/application/views/home.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Home.php" />
-        <option value="$PROJECT_DIR$/application/modules/api/controllers/Space.php" />
         <option value="$PROJECT_DIR$/application/modules/api/controllers/Dummy.php" />
+        <option value="$PROJECT_DIR$/application/modules/api/controllers/Space.php" />
+        <option value="$PROJECT_DIR$/application/views/home.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/application/controllers/Home0.php" />
+        <option value="$PROJECT_DIR$/application/modules/admin/config/ci_bootstrap.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Home.php" />
       </list>
     </option>
   </component>
@@ -1202,6 +328,12 @@
               <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1215,20 +347,20 @@
               <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
               <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="gulpfile.js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
@@ -1237,18 +369,14 @@
             </path>
             <path>
               <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Video-Subtitle" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-              <item name="PHP Runtime" type="20ee2d1f:SyntheticLibraryElementNode" />
-              <item name="standard" type="462c0819:PsiDirectoryNode" />
+              <item name="Video-Subtitle" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1280,6 +408,7 @@
       <recent name="D:\Bitnami\apache2\htdocs\ci_videotitle\assets\fiveLoadSub" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Bitnami\apache2\htdocs\Video-Subtitle\application\controllers" />
       <recent name="D:\Bitnami\apache2\htdocs\Video-Subtitle\application\modules\api\controllers" />
       <recent name="D:\Bitnami\apache2\htdocs\Video-Subtitle\assets\fiveLoadSub\amg" />
       <recent name="D:\Bitnami\apache2\htdocs\ci_videotitle\assets\fiveLoadSub\inc\src" />
@@ -1312,7 +441,7 @@
       <workItem from="1566096998302" duration="794000" />
       <workItem from="1570468533071" duration="2566000" />
       <workItem from="1581356079829" duration="29205000" />
-      <workItem from="1581442267828" duration="8386000" />
+      <workItem from="1581442267828" duration="16138000" />
     </task>
     <task id="LOCAL-00001" summary="remove wave part">
       <created>1581443819012</created>
@@ -1321,14 +450,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581443819012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make js files">
+      <created>1581452877749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581452877749</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47527000" />
+    <option name="totallyTimeSpent" value="55279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1365,83 +501,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove wave part" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove wave part" />
+    <MESSAGE value="make js files" />
+    <option name="LAST_COMMIT_MESSAGE" value="make js files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/helpers/MY_directory_helper.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/helpers/MY_string_helper.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/helpers/url_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/helpers/MY_url_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/img/importVideo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/inc/jszip.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Errors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3828" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1188" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/migration.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/index.html" />
-    <entry file="file://$PROJECT_DIR$/application/libraries/Space.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4a342d12-fbc2-44b7-a7bc-f22c86293ded/schema/ci/table/admin_groups">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4a342d12-fbc2-44b7-a7bc-f22c86293ded/schema/ci/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4a342d12-fbc2-44b7-a7bc-f22c86293ded/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1449,20 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/admin/config/ci_bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/ci_bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="55" column="32" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1578,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-184" />
@@ -1597,6 +639,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1046" column="9" selection-start-line="1046" selection-start-column="9" selection-end-line="1046" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/language/hindi/upload_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="726" column="9" selection-start-line="726" selection-start-column="9" selection-end-line="726" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="231" column="57" lean-forward="true" selection-start-line="231" selection-start-column="57" selection-end-line="231" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/fiveLoadSub/amg/obj_define.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1136">
@@ -1604,18 +681,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Users.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/views/_partials/sidemenu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="45" column="87" selection-start-line="45" selection-start-column="87" selection-end-line="45" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/helpers/url_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/MY_url_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/grocery_crud/themes/flexigrid/views/list_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/helpers/array_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Home.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Dummy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2214">
+          <caret line="154" column="31" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/helpers/file_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/third_party/MX/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/controllers/Api_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/third_party/rest_server/libraries/REST_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="872" column="56" lean-forward="true" selection-start-line="872" selection-start-column="56" selection-end-line="872" selection-end-column="56" />
+        <state relative-caret-position="214">
+          <caret line="869" column="9" lean-forward="true" selection-start-line="869" selection-start-column="9" selection-end-line="869" selection-end-column="9" />
           <folding>
-            <element signature="e#440#445#0#PHP" />
             <element signature="e#526#531#0#PHP" />
             <element signature="e#606#611#0#PHP" />
             <element signature="e#695#700#0#PHP" />
@@ -1668,9 +832,7 @@
             <element signature="e#92541#92571#0#HTML" />
             <element signature="e#92775#93381#0#HTML" />
             <element signature="e#92789#93334#0#HTML" />
-            <element signature="e#12434#12684#0#HTML" />
             <element signature="e#92891#93044#0#HTML" />
-            <element signature="e#12701#12933#0#HTML" />
             <element signature="e#93164#93293#0#HTML" />
             <element signature="e#93431#93539#0#HTML" />
             <element signature="e#93582#94947#0#HTML" />
@@ -1745,9 +907,7 @@
             <element signature="e#108998#109092#0#HTML" />
             <element signature="e#109144#110197#0#HTML" />
             <element signature="e#109158#110186#0#HTML" />
-            <element signature="e#28803#29236#0#HTML" />
             <element signature="e#109375#109596#0#HTML" />
-            <element signature="e#29253#29760#0#HTML" />
             <element signature="e#109758#110071#0#HTML" />
             <element signature="e#110231#110290#0#HTML" />
             <element signature="e#110330#110765#0#HTML" />
@@ -1777,12 +937,9 @@
             <element signature="n#video#0;n#div#1;n#div#0;n#body#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#!!top" />
             <element signature="n#hr#0;n#div#2;n#div#0;n#body#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#!!top" />
             <element signature="n#input#0;n#div#0;n#div#3;n#div#0;n#body#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#div#0;n#body#0;n#!!top" />
             <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#body#0;n#!!top" />
-            <element signature="n#textarea#0;n#div#1;n#div#3;n#div#0;n#body#0;n#!!top" />
             <element signature="e#114914#114919#0#PHP" />
             <element signature="n#div#4;n#div#0;n#body#0;n#!!top" />
             <element signature="n#hr#0;n#div#4;n#div#0;n#body#0;n#!!top" />
@@ -1792,19 +949,15 @@
             <element signature="e#115700#120546#0#HTML" />
             <element signature="e#115851#115942#0#HTML" />
             <element signature="e#116389#120535#0#HTML" />
-            <element signature="e#36177#37322#0#HTML" />
             <element signature="e#116589#117035#0#HTML" />
             <element signature="e#117133#117217#0#HTML" />
             <element signature="e#117312#117398#0#HTML" />
-            <element signature="e#37339#38494#0#HTML" />
             <element signature="e#117755#118208#0#HTML" />
             <element signature="e#118306#118391#0#HTML" />
             <element signature="e#118486#118574#0#HTML" />
-            <element signature="e#38511#39663#0#HTML" />
             <element signature="e#118927#119377#0#HTML" />
             <element signature="e#119475#119560#0#HTML" />
             <element signature="e#119655#119743#0#HTML" />
-            <element signature="e#39680#40275#0#HTML" />
             <element signature="n#div#0;n#div#1;n#body#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#!!top" />
@@ -1836,9 +989,6 @@
             <element signature="e#127194#127252#0#HTML" />
             <element signature="e#127327#127385#0#HTML" />
             <element signature="e#127402#128013#0#HTML" />
-            <element signature="e#47197#47409#0#HTML" />
-            <element signature="e#47430#47642#0#HTML" />
-            <element signature="e#47663#47749#0#HTML" />
             <element signature="e#128084#130520#0#HTML" />
             <element signature="e#128261#128849#0#HTML" />
             <element signature="e#128938#129529#0#HTML" />
@@ -1892,73 +1042,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Space.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1046" column="9" selection-start-line="1046" selection-start-column="9" selection-end-line="1046" selection-end-column="9" />
+        <state relative-caret-position="308">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/language/hindi/upload_lang.php">
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/helpers/file_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="84" column="23" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_defines.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="726" column="9" selection-start-line="726" selection-start-column="9" selection-end-line="726" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/basic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="231" column="57" lean-forward="true" selection-start-line="231" selection-start-column="57" selection-end-line="231" selection-end-column="57" />
+        <state relative-caret-position="-1276">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Cli.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+        <state relative-caret-position="132">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/ci_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/admin/config/ci_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Home0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Space.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/api/controllers/Dummy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="110" column="23" lean-forward="true" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        <state relative-caret-position="366">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>

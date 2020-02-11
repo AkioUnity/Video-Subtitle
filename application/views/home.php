@@ -25,7 +25,7 @@
     <script src="<?php echo subtitle_url('amg/main.js') ?>"></script>
     <script src="<?php echo subtitle_url('amg/lang.js') ?>"></script>
     <script src="<?php echo subtitle_url('amg/obj_define.js') ?>"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         function onLoad() {
             if (typeof replaceFile == 'function') {
@@ -870,7 +870,15 @@
         }
 
         function showSaveDialog() {
-            document.querySelector("#saveDialogContainer").style.display = "block";
+            let saveData = $.ajax({
+                type: 'POST',
+                url: "<?php echo base_url('home/save_post')?>",
+                data: {textbox: $("#subtitleTextArea").val(),file:"<?php echo $subtitle_file ?>",space:"<?php echo $space ?>"},
+                dataType: "text",
+                success: function(resultData) { alert(resultData) }
+            });
+            // saveData.error(function() { alert("Something went wrong"); });
+            // document.querySelector("#saveDialogContainer").style.display = "block";
         }
 
         function hideSaveDialog() {
