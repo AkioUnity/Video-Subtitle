@@ -33,7 +33,7 @@
             }
             replaceLocalizedText();
             setupKeystroke();
-            setupWaveform();
+            // setupWaveform();
             convertDialogInit();
             UI$init();
             richVideoControl$applyControl(document.getElementById('videoPlayer'));
@@ -96,11 +96,11 @@
             updateSubtitleFrame();
             textareaScrollTo(current.lineNo);
 
-            if (wavesurfer.getDuration() > 0) {
-                wavesurfer.params.height = (waveformFrame.offsetHeight - 30);
-                wavesurfer.drawer.setHeight((waveformFrame.offsetHeight - 30));
-                wavesurfer.drawBuffer();
-            }
+            // if (wavesurfer.getDuration() > 0) {
+            //     wavesurfer.params.height = (waveformFrame.offsetHeight - 30);
+            //     wavesurfer.drawer.setHeight((waveformFrame.offsetHeight - 30));
+            //     wavesurfer.drawBuffer();
+            // }
         }
 
         function UI$mouse$setCursor(cursorStyle) {
@@ -143,12 +143,11 @@
 
             updateSubtitleFrame();
 
-            if ((wavesurfer.getDuration() > 0) && (!current.UI.dragging)) {
-                wavesurfer.params.height = (waveformFrame.offsetHeight - 30);
-                wavesurfer.drawer.setHeight((waveformFrame.offsetHeight - 30));
-                wavesurfer.drawBuffer();
-            }
-
+            // if ((wavesurfer.getDuration() > 0) && (!current.UI.dragging)) {
+            //     wavesurfer.params.height = (waveformFrame.offsetHeight - 30);
+            //     wavesurfer.drawer.setHeight((waveformFrame.offsetHeight - 30));
+            //     wavesurfer.drawBuffer();
+            // }
         }
 
         function updateSubtitleFrame() {
@@ -230,7 +229,7 @@
 
         function playMedia() {
             current.disableWaveformSeekEvent = true;
-            wavesurfer.seekTo(document.getElementById("videoPlayer").currentTime / wavesurfer.backend.getDuration());
+            // wavesurfer.seekTo(document.getElementById("videoPlayer").currentTime / wavesurfer.backend.getDuration());
             current.disableWaveformSeekEvent = false;
             // wavesurfer.play();
             clearInterval(current.timerID);
@@ -250,18 +249,18 @@
         }
 
         function seekMedia(from) {
-            switch (from) {
-                case "video":
-                    if (!current.disableVideoSeekEvent) {
-                        wavesurfer.seekTo(document.getElementById("videoPlayer").currentTime / wavesurfer.backend.getDuration());
-                    }
-                    break;
-                case "waveform":
-                    if (!current.disableWaveformSeekEvent) {
-                        document.getElementById("videoPlayer").currentTime = wavesurfer.getCurrentTime();
-                    }
-                    break;
-            }
+            // switch (from) {
+            //     case "video":
+            //         if (!current.disableVideoSeekEvent) {
+            //             wavesurfer.seekTo(document.getElementById("videoPlayer").currentTime / wavesurfer.backend.getDuration());
+            //         }
+            //         break;
+            //     case "waveform":
+            //         if (!current.disableWaveformSeekEvent) {
+            //             document.getElementById("videoPlayer").currentTime = wavesurfer.getCurrentTime();
+            //         }
+            //         break;
+            // }
             updateSubtitleOverlay();
         }
 
@@ -740,12 +739,12 @@
                         alt=""/>
                 <br/>{fiveLoadSub_menu.importSubtitle}
             </div>
-            <div class="imgButton" onClick="showConvertDialog();"><img name="imageField" type="image"
-                                                                       src="<?php echo subtitle_url('img/conversion.png') ?>"
-                                                                       width="40" height="40"
-                                                                       alt=""/>
-                <br/>{fiveLoadSub_menu.conversion}
-            </div>
+<!--            <div class="imgButton" onClick="showConvertDialog();"><img name="imageField" type="image"-->
+<!--                                                                       src="--><?php //echo subtitle_url('img/conversion.png') ?><!--"-->
+<!--                                                                       width="40" height="40"-->
+<!--                                                                       alt=""/>-->
+<!--                <br/>{fiveLoadSub_menu.conversion}-->
+<!--            </div>-->
             <div class="imgButton" onClick="showSaveDialog();"><img name="imageField" type="image"
                                                                     src="<?php echo subtitle_url('img/output.png') ?>"
                                                                     width="40" height="40"
@@ -873,9 +872,15 @@
             let saveData = $.ajax({
                 type: 'POST',
                 url: "<?php echo base_url('home/save_post')?>",
-                data: {textbox: $("#subtitleTextArea").val(),file:"<?php echo $subtitle_file ?>",space:"<?php echo $space ?>"},
+                data: {
+                    textbox: $("#subtitleTextArea").val(),
+                    file: "<?php echo $subtitle_file ?>",
+                    space: "<?php echo $space ?>"
+                },
                 dataType: "text",
-                success: function(resultData) { alert(resultData) }
+                success: function (resultData) {
+                    alert(resultData)
+                }
             });
             // saveData.error(function() { alert("Something went wrong"); });
             // document.querySelector("#saveDialogContainer").style.display = "block";
@@ -1076,7 +1081,7 @@
         }
 
         function convertDialogInit() {
-            document.getElementById('convertDialogTab_subtitle_a').click();
+            // document.getElementById('convertDialogTab_subtitle_a').click();
         }
     </script>
 
@@ -1087,9 +1092,8 @@
         <br/>
         <div>
             <div class="pinTabs">
-                <div id="convertDialogTab_subtitle"><a id="convertDialogTab_subtitle_a"
-                                                       href="#convertDialogTab_subtitle"
-                                                       onclick="current.convertDialog.lastSelection ='format';updateConvertDialog();">{fiveLoadSub_convertDialog.tabLabel.subtitle}</a>
+                <div id="convertDialogTab_subtitle">
+<!--                    <a id="convertDialogTab_subtitle_a"  href="#" onclick="current.convertDialog.lastSelection ='format';updateConvertDialog();">{fiveLoadSub_convertDialog.tabLabel.subtitle}</a>-->
                     <div>
                         <div style="text-align:center;">
                             <br/>
