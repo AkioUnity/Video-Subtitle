@@ -5,10 +5,9 @@
 	#--- URL rewrite
 	#--- Note: require Rewrite mod enabled (sudo a2enmod rewrite)
 	RewriteEngine On
-	RewriteCond $1 !^(index\.php|resources|robots\.txt)
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+	RewriteRule ^(.*)$ index.php/$1 [L]
 </IfModule>
 
 <IfModule !mod_rewrite.c>

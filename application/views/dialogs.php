@@ -36,8 +36,8 @@
         <h1>Select Video</h1>
         <div class="btn-group">
 <!--            --><?php //print_r($files) ?>
-            <?php for ($i = 0; $i < count($files)-1; $i += 2) { ?>
-                <button onclick="window.location.href = '<?php echo base_url('?id='.$i)?>';"><?php echo $files[$i]['Key'] . ' ' . $files[$i + 1]['Key']; ?></button>
+            <?php for ($i = 0; $i < count($files); $i ++) { ?>
+                <button onclick="window.location.href = '<?php echo base_url('?file='.$files[$i])?>';"><?php echo $files[$i]; ?></button>
             <?php } ?>
         </div>
 
@@ -115,7 +115,7 @@
         function showSaveDialog() {
             let saveData = $.ajax({
                 type: 'POST',
-                url: "<?php echo base_url('home/save_post')?>",
+                url: "<?php echo base_url('home/save_subtitle')?>",
                 data: {
                     textbox: $("#subtitleTextArea").val(),
                     file: "<?php echo $subtitle_file ?>",
